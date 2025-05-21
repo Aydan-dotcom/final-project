@@ -1,0 +1,5 @@
+span,
+button {
+  display: inline;
+  vertical-align: middle; /* Aligns the elements vertically */
+}

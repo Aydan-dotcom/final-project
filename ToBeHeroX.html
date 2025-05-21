@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>To Be Hero X</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <body style="background-color:#4c7273; color:antiquewhite">
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-bar-block w3-animate-right" style="display:none; background-color:#86b9b0; width:250px; right:0;" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">&times; Close</button>
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="GravityFalls.html" class="w3-bar-item w3-button">Gravity Falls</a>
+            <a href="ReZero.html" class="w3-bar-item w3-button">Re Zero</a>
+            <a href="ThePitt.html" class="w3-bar-item w3-button">The Pitt</a>
+        </div>
+
+        <div>
+            <button class="w3-button w3-xxlarge w3-round-large w3-right" onclick="toggleNav()" style="background-color: #86b9b0;">&#9776;</button>
+            <div class="w3-container w3-bottombar w3-rightbar w3-round-xlarge" style="background-color:#041421;">
+                <h1>To Be Hero X:</h1>
+            </div>
+        </div>
+        <script>
+            function toggleNav() {
+                var sidebar = document.getElementById("mySidebar");
+                if (sidebar.style.display === "block") {
+                    sidebar.style.display = "none";
+                } else {
+                    sidebar.style.display = "block";
+                }
+            }
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+    </body>
+</html>
