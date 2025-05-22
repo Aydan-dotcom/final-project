@@ -3,6 +3,7 @@
     <title>To Be Hero X</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="style.css">
     <body style="background-color:#386994; color:antiquewhite">
         <!-- Sidebar -->
         <div class="w3-sidebar w3-bar-block w3-animate-right" style="display:none; background-color:#8eaebb; width:250px; right:0;" id="mySidebar">
@@ -49,7 +50,16 @@
                 </h4>
             </div>        
         </div>
-    <img src="hero.png" class="w3-round-xlarge" style="width:30%;">
+        <div class="container">
+            <div class="half w3-round-xlarge">
+                <img src="hero.png">
+            </div>
+            <div class="half">
+                <div class="iframe-container w3-rightbar w3-bottombar w3-round-xlarge">
+                    <iframe src="https://www.youtube.com/embed/B433_-vANzQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
         <script>
             function toggleNav() {
                 var sidebar = document.getElementById("mySidebar");
