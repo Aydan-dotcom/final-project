@@ -3,3 +3,9 @@ button {
   display: inline;
   vertical-align: middle;
 } 
+
+iframe{
+  aspect-ratio: 16/9;
+  width: 50%;
+  height: auto;
+}
