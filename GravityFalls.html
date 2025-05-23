@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Gravity Falls</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <body style="background-color:#52489f; color:antiquewhite">
+        <div class="w3-sidebar w3-bar-block w3-animate-right" style="display:none; background-color:#c266a7; width:250px; right:0;" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">&times; Close</button>
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="ReZero.html" class="w3-bar-item w3-button">Re Zero</a>
+            <a href="ThePitt.html" class="w3-bar-item w3-button">The Pitt</a>
+            <a href="ToBeHeroX.html" class="w3-bar-item w3-button">To Be Hero X</a>
+        </div>
+
+        <div>
+            <div class="w3-container w3-bottombar w3-rightbar w3-round-xlarge" style="background-color:#0d0b33;">
+                <span style="width:90%; font-size:50px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-triangle" viewBox="0 0 16 16">
+  <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.15.15 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.2.2 0 0 1-.054.06.1.1 0 0 1-.066.017H1.146a.1.1 0 0 1-.066-.017.2.2 0 0 1-.054-.06.18.18 0 0 1 .002-.183L7.884 2.073a.15.15 0 0 1 .054-.057m1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767z"/>
+</svg>Gravity Falls:</span>
+                <button class="w3-button w3-xxlarge w3-round-large w3-right" onclick="toggleNav()" style="background-color: #c266a7;">&#9776;</button>
+            </div>
+        </div>
+        <div class="w3-container w3-bottombar w3-rightbar w3-round-xlarge w3-margin-top w3-margin-right" style="background-color:#0d0b33;">
+            <h4>
+                Gravity Falls is an animated show released in June of 2012 on Disney Channel. The show revolves around two teenage twins going to a wierd town during the summer named Gravity Falls (like the title :O). Other important characters are their Uncle Stan, an employee of Uncle Stan, and many other friends of the siblings, named Dipper, a bot who is smart and very awkward, and Mabel, a girl who is energetic and silly. The show focuses around their adventures learning about the mysterious nature of the town, with monsters seeming to appear everywhere they go.
+            </h4>
+            <h3>
+                Gravity Falls Rating:
+            </h3>
+            <div style="background-color:#4c2f6f;">
+                <h3>
+                    1. Conflict-
+                </h3>
+                <h4 style="background-color:#c266a7;">
+                    Gravity Falls has incredible conflict, specifically in the second season. In the first season, there isn't much of a clear overarching villian or conflict established, although mystery still surrounds the town they live in. It isn't until season 2 where the conflict rises exponentially. With additions of new important characters, a threat of an all-powerful villian is looming above the main cast for an entire season, and when the villian is let loose he becomes arguably one of the greatest antagonists, especially the story uses the threat of the villian to give Grunkle Stan amazing character development. Overall I give Gravity Falls a 9/10 for conflict.
+                </h4>
+                <h3>
+                    2. Characters-
+                </h3>
+                <h4 style="background-color:#c266a7;">
+                    Gravity Falls has some good characters, although specifically Mabel and Grunkle Stan stand out to me as the best characters in terms of writing, even if Dipper is my favorite character. Both Mabbel and Stan have great character development, both during the end of the show. Mabbel is at first scared about growing up, and the chance that her and Dipper will grow distant from each other in the future, while Stan is extremely prideful and reckless. Both of these character conflicts are resolved very well, and it ties perfectly into the story and heavily impacts the plot. Overall I give the characters an 8/10.
+                </h4>
+                <h3>
+                    3. Plot-
+                </h3>
+                <h4 style="background-color:#c266a7;">
+                    The plot in Gravity Falls is in my opinion the worst of the 3, although still definitely good. While season 1 doesn't have much importance to the story with the exeption of the last couple of episodes, a majority of season 2 is very important to the story that Gravity Falls is telling. Overall I give plot a 7/10.
+                </h4>
+            </div>        
+        </div>
+        <div class="container w3-bottombar w3-rightbar w3-round-xlarge">
+            <div class="half">
+                <img src="gravity.png">
+            </div>
+            <div class="half">
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/fye6jbyWfG0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <script>
+            function toggleNav() {
+                var sidebar = document.getElementById("mySidebar");
+                if (sidebar.style.display === "block") {
+                    sidebar.style.display = "none";
+                } else {
+                    sidebar.style.display = "block";
+                }
+            }
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+    </body>
+</html>

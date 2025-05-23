@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>The Pitt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <body style="background-color:#464b37; color:antiquewhite">
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-bar-block w3-animate-right" style="display:none; background-color:#848871; width:250px; right:0;" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">&times; Close</button>
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="GravityFalls.html" class="w3-bar-item w3-button">Gravity Falls</a>
+            <a href="ReZero.html" class="w3-bar-item w3-button">Re Zero</a>
+            <a href="ToBeHeroX.html" class="w3-bar-item w3-button">To Be Hero X</a>
+        </div>
+
+        <div>
+            <div class="w3-container w3-bottombar w3-rightbar w3-round-xlarge" style="background-color:#262b15;">
+                <span style="width:90%; font-size:50px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hospital" viewBox="0 0 16 16">
+  <path d="M8.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1zM13.25 9a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm.25 1.75a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zm-11-4a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 3 9.75v-.5A.25.25 0 0 0 2.75 9zm0 2a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25z"/>
+  <path d="M5 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1zm2 14h2v-3H7zm3 0h1V3H5v12h1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zm0-14H6v1h4zm2 7v7h3V8zm-8 7V8H1v7z"/>
+</svg>The Pitt:</span>
+                <button class="w3-button w3-xxlarge w3-round-large w3-right" onclick="toggleNav()" style="background-color: #848871;">&#9776;</button>
+            </div>
+        </div>
+        <div class="w3-container w3-bottombar w3-rightbar w3-round-xlarge w3-margin-top w3-margin-right" style="background-color:#262b15;">
+            <h4>
+                The Pitt Ranking:
+            </h4>
+            <h3>
+                The Pitt is the only live-action show I am rating because I believe it is the best live-action show I've seen. The concept is simple, it is a show focused around workers (mostly doctors) of a hospital in Pittsburgh. The entire first season of the show, which is the only season out as of right now, only takes place in a single day, where a couple of new workers are employed from college.
+            </h3>
+            <div style="background-color:#3f3f3f;">
+                <h3>
+                    1. Conflict-
+                </h3>
+                <h4 style="background-color:#848871">
+                    The conflict of The Pitt is done very well, especially the last couple of episodes where every seen becomes suspenseful. The conflict is also very realistic and not over the top like most other series of emergency workers. I rate the conflict an 8/10.
+                </h4>
+                <h3>
+                    2. Characters-
+                </h3>
+                <h4 style="background-color:#848871">
+                    I love most of the characters of the show. Obviously it is much easier to have good characters in live action because there is a real person acting as them, but still the characters feel real, funny, and best, just as flawed as average people. I rate the characters a 9/10.
+                </h4>
+                <h3>
+                    3. Plot-
+                </h3>
+                <h4 style="background-color:#848871">
+                    The plot of The Pitt is very simple and easy to understand. There can't be much said about the plot. 6/10.
+                </h4>
+            </div>        
+        </div>
+        <div class="container">
+            <div class="half w3-bottombar w3-rightbar w3-round-xlarge">
+                <img src="pitt.jpg">
+            </div>
+            <div class="half">
+                <h2 style="background-color: #3f3f3f;">My Favorite Doctors of the Show (Requires Ball Knownledge):</h2>
+                <ol class="w3-ol w3-border">
+                    <li>Dr. Robby</li>
+                    <li>Whitaker</li>
+                    <li>Dr. King</li>
+                    <li>Dr. Javadi</li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            function toggleNav() {
+                var sidebar = document.getElementById("mySidebar");
+                if (sidebar.style.display === "block") {
+                    sidebar.style.display = "none";
+                } else {
+                    sidebar.style.display = "block";
+                }
+            }
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+    </body>
+</html>

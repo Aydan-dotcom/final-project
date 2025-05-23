@@ -4,26 +4,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <body style="background-color:#4c7273; color:antiquewhite">
-        <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
-            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-bar-block w3-animate-right" style="display:none; background-color:#86b9b0; width:250px; right:0;" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">&times; Close</button>
+            <a href="GravityFalls.html" class="w3-bar-item w3-button">Gravity Falls</a>
             <a href="ReZero.html" class="w3-bar-item w3-button">Re Zero</a>
-            <a href="ToBeHeroX.html" class="w3-bar-item w3-button">To Be Hero X</a>
             <a href="ThePitt.html" class="w3-bar-item w3-button">The Pitt</a>
+            <a href="ToBeHeroX.html" class="w3-bar-item w3-button">To Be Hero X</a>
         </div>
+
         <div>
-            <button class="w3-button w3-gray w3-xxlarge w3-round-large" onclick="w3_open()">&#9776;</button>
             <div class="w3-container w3-bottombar w3-rightbar w3-round-xlarge" style="background-color:#041421;">
-                <h1>My Favorite Shows!</h1>
+                <span style="width:90%; font-size:50px;">My Favorite Shows!</span>
+                <button class="w3-button w3-xxlarge w3-round-large w3-right" onclick="toggleNav()" style="background-color: #86b9b0;">&#9776;</button>
             </div>
         </div>
-<!--Sidebar-->
+        <div class="w3-container w3-bottombar w3-rightbar w3-round-xlarge w3-margin-top w3-margin-right" style="background-color:#041421;">
+            <h4>
+                I haven't watched very many shows to be honest, but the shows I have watched are mostly dissimilar and vary in terms of story. For each show I will explain the different parts of each show, based on the categories below.
+            </h4>
+            <h3>
+                Aspects of a show I believe to be most important:
+            </h3>
+            <div style="background-color:#042630;">
+                <h3>
+                    1. Conflict-
+                </h3>
+                <h4 style="background-color:#86b9b0">
+                    Conflict is in my opinion the most important part of a show, or of any piece of media, because it is the driving force of the characters, and most of the time it moves the plot along. A good conflict, whether it be a villain or a character themself, is what gives a show stakes and makes them enjoyable to watch. A great example of good conflict is the Last of Us show, where season 2 is primarily driven by the main character's want for revenge, bringing the characters to different areas furthering the story.
+                </h4>
+                <h3>
+                    2. Characters-
+                </h3>
+                <h4 style="background-color:#86b9b0">
+                    Good characters are usually not as important to the plot of the story as conflict, but instead add a lot to the enjoyment of the story. Good characters are hard to make, and as such very good characters aren't in many stories, although stories without any good characters are usually horrible.
+                </h4>
+                <h3>
+                    3. Plot-
+                </h3>
+                <h4 style="background-color:#86b9b0">
+                    The plot is the progression of the story, and because it is relitively easy compared to the other parts of making a story, can be unoriginal in most stories. Although an amazing plot can completely carry a story almost by itself, because a plot that is tied around can give the reader a satisfying conclusion to the story, as well as make the struggles of the story mean something. A good example of this is Iron Man, where Tony Stark doesn't just learn his lesson to not be as selfish as he was and it doesn't effect him any longer, instead the story makes him sacrifice himself, contrasting the beginning of his character perfectly.
+                </h4>
+            </div>
+        </div>
+        <footer>
+            Aydan Meyer, 2025
+        </footer>
         <script>
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-}
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+            function toggleNav() {
+                var sidebar = document.getElementById("mySidebar");
+                if (sidebar.style.display === "block") {
+                    sidebar.style.display = "none";
+                } else {
+                    sidebar.style.display = "block";
+                }
+            }
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
     </body>
 </html>

@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+}
+
+.half {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+table {
+    color:crimson;
+}
+
+li {
+    font-size:20px;
+}
